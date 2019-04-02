@@ -55,5 +55,5 @@
 
 *.bin*
 
-*.jpg
+#*.jpg
 *.png
