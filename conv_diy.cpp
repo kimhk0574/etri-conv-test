@@ -21,21 +21,9 @@ int your_conv( cv::Mat src,
 	//row index 0 to $(padding)-1 is zero-padded line, row index 0 to $(padding)-1 is always zero
 	//colum index 0 to $(padding)-1 is zero-padded line, row index 0 to $(padding)-1 is always zero
 
-	dst_height = ((src.rows + (2*padding) - kernel.rows) / stride) + 1;
-	dst_width = ((src.cols + (2*padding) - kernel.cols) / stride) + 1;
+	//dst_height = ((src.rows + (2*padding) - kernel.rows) / stride) + 1;
+	//dst_width = ((src.cols + (2*padding) - kernel.cols) / stride) + 1;
 
-
-
-
-
-	int i, j;
-	for(i=0; i<dst_height; i++)
-	{
-		for(j=0; j<dst_width; j++)
-		{
-
-		}
-	}
 
     // src.ptr<unsigned char>(i)[ calculate INDEX ]
 
