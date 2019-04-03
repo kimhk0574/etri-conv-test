@@ -33,7 +33,7 @@ int your_conv( cv::Mat src,
 	{
 		for(j=0; j<(src_width + 2*padding - kernel_width); j+=stride)
 		{
-			if((src_height + 2*padding - kernel_height) - i >= 0)
+			if((src_height + 2*padding - kernel_height) - i >= 0 && ((src_width + 2*padding - kerenel_width) - j >= 0)
 			{
 				for(k=0; k<3; k++)
 				{
